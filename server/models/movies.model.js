@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const MoviesSchema = new mongoose.Schema({
 
-    title: {
+    test: {
         type: String, 
         required: [true, "Please add a title to this setup"],
         minLength: [3, "Title must be at least 3 characters long!"]    
